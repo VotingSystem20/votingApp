@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginBottom="40sp"
+        android:src="@drawable/loginicon"
+        android:background="@drawable/appicon"/>
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:id="@+id/logemail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20sp"
+        android:hint="Email"
+        android:background="@drawable/textboxlogin"
+        android:layout_marginRight="20sp"/>
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:id="@+id/logpass"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:paddingLeft="20sp"
+        android:hint="Password"
+        android:background="@drawable/textboxlogin"
+        android:layout_marginRight="20sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="Login"
+            android:id="@+id/lsub"
+            android:background="@drawable/buttondesignlogin"
+            android:textSize="15sp"/>
+        
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="2sp"
+        android:id="@+id/lsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New user please click here Sign up!.."
+android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="10sp"/>
+</LinearLayout>
